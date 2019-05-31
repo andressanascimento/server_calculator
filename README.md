@@ -14,14 +14,13 @@ If the collection of virtual machines is empty, an exception is thrown.
 
 ## Installation
 
-Use the composer (https://getcomposer.org/) to install voucher_pool.
+Use the composer (https://getcomposer.org/) to install server_calculator.
 
 ```bash
 composer install
 ```
 
-### How to use
-When a offer is created this route also generate the vouchers to all recipients.
+## How to use
 
 ```php
 
