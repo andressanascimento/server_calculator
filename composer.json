@@ -1,0 +1,23 @@
+{
+    "name": "ServerCalculator",
+    "description": "Calculates the number of servers (which have the same configuration) needed to host a specified amount of virtual machines.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andressa Guimarães",
+            "email": "desa.lopes7@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ServerCalculator\\": "./src"
+        }
+    }
+}
